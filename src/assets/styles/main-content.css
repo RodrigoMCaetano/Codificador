@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-image: url(/src/assets/image/cripto.jpg);
+    background-size: 100%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main__content {
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 16px;
+    flex-direction: column;
+}
+
+.titulo {
+    backdrop-filter: blur(5px);
+    color: black;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+}
+
+.area-do-texto {
+    background-color: #BDD5F5;
+    color: black;
+    opacity: 0.6;
+    width: 90%;
+    height: 100%;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5%;
+    text-transform: lowercase;
+}
+
+.caixas-de-texto {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.entrada__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 49%;
+    height: 100%;
+}
+
+.subtitulo-entrada {
+    background-color: transparent;
+    color: white;
+    width: 50%;
+    height: 5%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #121212;
+}
+
+.saida__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 49%;
+    height: 100%;
+}
+
+.subtitulo-saida {
+    background-color: transparent;
+    color: white;
+    width: 50%;
+    height: 5%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #121212;
+}
+
+.botao-criptografar, .botao-descriptografar {
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    width: 20%;
+    height: 5%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    border: 2px solid #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao-copiar {
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+    width: 25%;
+    height: 6%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #121212;
+}
+
+.botao-invisivel {
+    color: transparent;
+    background-color: transparent;
+    margin: 10px;
+    width: 25%;
+    height: 6%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}

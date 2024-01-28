@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
+</head>
+<body>
+    <div class="main__content">
+
+        <h1 class="titulo">Decodificador de Textos</h1>
+
+        <div class="caixas-de-texto">
+            <div class="entrada__texto">
+
+                <h2 class="subtitulo-entrada">Insira aqui seu texto para criptografar ou descriptografar:</h2>
+
+                <div class="text">
+                    <textarea id="entradaTexto" class="area-do-texto" name="textoentrada" rows="20" cols="60" maxlength="960" autocapitalize="none"></textarea>
+                </div>
+                    <button class="botao-criptografar" onclick="criptografar ()">Criptografar</button>
+                    <button class="botao-descriptografar" onclick="descriptografar ()">Descriptografar</button>
+            </div>
+
+            <div class="saida__texto">
+                <h2 class="subtitulo-saida"> Confira o resultado:</h2>
+
+                <div class="text">
+                    <textarea id="saidaTexto" class="area-do-texto" readonly name="textosaida" rows="20" cols="60" maxlength="500" autocapitalize="none"></textarea>
+                </div>
+
+                <button id="botaoCopiar" onclick="copiar ()" class="botao-copiar">Copiar</button>
+                <button class="botao-invisivel">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
